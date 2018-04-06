@@ -1,0 +1,31 @@
+<nav class="navbar navbar-transparent">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="home"><i class="fa fa-home" aria-hidden="true"></i></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="home">HOME</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" >CATAGORY<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a ui-sref="item1">ITEM1</a></li>
+                    <li><a ui-sref="item2">ITEM2</a></li>
+                    <li><a ui-sref="item3">ITEM3</a></li>
+                    <li><a ui-sref="item4">ITEM4</a></li>
+                </ul>
+            </li>
+            <li><a ui-sref="products">PRODUCTS</a></li>
+            <li><a ui-sref="contacts">CONTACTS</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" ng-model="search"/>
+                <div class="input-group-btn">
+                    <button class="btn btn-danger" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>

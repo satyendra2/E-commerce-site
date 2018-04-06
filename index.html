@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ONLINE SHOPING</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./app/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./app/assets/images/favicon.ico" type="image/x-icon">
+    <link href="./app/assets/stylesheet/css/main.css" rel="stylesheet">
+    <link href="./app/assets/stylesheet/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./app/assets/stylesheet/css/owl.carousel.css" />
+    <link rel="stylesheet" href="./app/assets/stylesheet/css/owl.theme.default.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+      <div ng-app="myApp">
+          <div ng-include="'./app/shared/header/header.html'"></div>
+          <div ui-view></div>
+          <div ng-include="'./app/shared/footer/footer.html'"></div>
+      </div>
+      <script src="https://code.angularjs.org/1.4.0/angular.min.js"></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js'></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="./app/script/main.js"></script>
+      <script src="./app/components/home/owl.carousel.js"></script>
+      <script src="./app/components/home/homeController.js"></script>
+      <script src="./app/components/products/productController.js"></script>
+</body>
+</html>
